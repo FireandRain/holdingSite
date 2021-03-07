@@ -1,9 +1,8 @@
-var app = document.getElementById('title');
+var t1 = document.getElementById('t1');
  
-var typewriter = new Typewriter(app, {
-  loop: false,
+var typewriter = new Typewriter(t1, {
+  	loop: false,
 	delay: 75,
-	stringSplitter: true
 });
  
 typewriter
@@ -12,6 +11,7 @@ typewriter
 	.pauseFor(1500)
 	.typeString('<br> We\'ll be landing soon...')
 	.start()
+
 
 
 
